@@ -1,0 +1,15 @@
+---
+# configured in the /vars dir
+# would love to switch to Geerlings method
+# Id like to be able to just pull in a brewfile, it seems like this loop method may not be the most efficient
+
+
+
+- hosts: localhost
+  name: Placeholder
+  gather_facts: True
+  vars_files: 
+    - vars/myvars.yaml
+  roles:
+    - sshd
+
