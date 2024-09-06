@@ -12,4 +12,3 @@
     - vars/myvars.yaml
   roles:
     - sshd
-
