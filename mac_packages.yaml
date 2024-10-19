@@ -5,8 +5,8 @@
 
 
 
-- hosts: localhost
-  name: Placeholder
+- hosts: dockerlab01
+  name: Set SSHD
   gather_facts: True
   vars_files: 
     - vars/myvars.yaml
